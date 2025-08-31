@@ -2,9 +2,9 @@
   "name": "template",
   "version": "1.0.0",
   "main": "src/index.ts",
+  "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "node .build/index.js",
     "dev": "nodemon src/index.ts",
     "test": "jest"
   },
@@ -16,6 +16,7 @@
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/jest": "^30.0.0",
+    "@types/node": "^24.3.0",
     "jest": "^30.1.1",
     "nodemon": "^3.1.10",
     "prettier": "^3.6.2",
